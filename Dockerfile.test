@@ -6,4 +6,3 @@ COPY test_main.py .
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY movies.json .
-CMD python test_main.py 
