@@ -1,4 +1,4 @@
-def imageName=ta2199/demo-jenkins
+def imageName = 'ta2199/demo-jenkins'
 
 node('workers'){
     stage('Checkout'){
